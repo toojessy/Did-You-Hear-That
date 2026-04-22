@@ -28,27 +28,22 @@ Be careful — once you unlock the first door, **the Closet Creep begins chasing
 - The Closet Creep actively chases the player
 - Increasing difficulty over time
 - Hidden scare tiles that make the entity faster
-- Progressive door system (harder to reach later doors)
-- Custom ASCII death screen with horror-style messages
+- Progressive door system
+- Custom ASCII death screen
 
 ---
 
 ## Important
 
-This game **cannot be run directly on GitHub**.
-
-You must:
-1. Download or clone the project  
-2. Run it on your own computer using Java  
+This game **cannot be run directly on GitHub**.  
+You must download it and run it locally.
 
 ---
 
-## How to Run This Game (Step-by-Step)
+## Run Commands (Quick Start)
 
-### Step 1: Install Java
-
-1. Open a terminal (Command Prompt / PowerShell / Terminal)
-2. Check if Java is installed:
+If you already have the project downloaded and are inside the folder, just run:
 
 ```bash
-javac -version
+javac src/*.java
+java -cp src Game
