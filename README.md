@@ -8,7 +8,7 @@ A Java-based horror puzzle game where you must solve riddles, unlock doors, and 
 
 Navigate through the map, solve riddles to unlock all 5 doors, and reach the exit.
 
-Be careful — once you unlock the first door, **the Closet Creep begins chasing you**.
+Be careful — once you unlock the first door, **the Closet Creep begins chasing you** and gets faster as you trigger hidden scare tiles or make mistakes.
 
 ---
 
@@ -24,17 +24,31 @@ Be careful — once you unlock the first door, **the Closet Creep begins chasing
 
 ## Gameplay Features
 
-- Unique riddles for each door  
-- Increasing difficulty as you progress  
-- The Closet Creep speeds up over time  
-- Hidden scare tiles that make the game harder  
-- Custom ASCII death screen  
+- Unique riddles for each door (no repeats)
+- The Closet Creep actively chases the player
+- Increasing difficulty over time
+- Hidden scare tiles that make the entity faster
+- Progressive door system (harder to reach later doors)
+- Custom ASCII death screen with horror-style messages
 
 ---
 
-## How to Run the Game
+## Important
 
-### 1. Open a terminal in the project folder
+This game **cannot be run directly on GitHub**.
+
+You must:
+1. Download or clone the project  
+2. Run it on your own computer using Java  
+
+---
+
+## How to Run This Game (Step-by-Step)
+
+### Step 1: Install Java
+
+1. Open a terminal (Command Prompt / PowerShell / Terminal)
+2. Check if Java is installed:
 
 ```bash
-cd "Did You Hear That"
+javac -version
