@@ -52,7 +52,12 @@ All code was reviewed, tested, and modified by the author.
 ---
 ## Downloading
 
-Download the ZIP file from GitHub
+- Download the ZIP file from GitHub
+- Extract the files
+- Open the folder in VS code
+- Navigate to the src folder and open Game.java
+- Create a new terminal
+- Paste the run commands
 
 ---
 
