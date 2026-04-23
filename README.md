@@ -50,6 +50,11 @@ AI tools (ChatGPT) were used to assist with:
 All code was reviewed, tested, and modified by the author.
 
 ---
+## Downloading
+
+Download the ZIP file from GitHub
+
+---
 
 ## Run Commands (Quick Start)
 
