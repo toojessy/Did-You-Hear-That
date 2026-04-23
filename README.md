@@ -66,6 +66,5 @@ All code was reviewed, tested, and modified by the author.
 If you already have the project downloaded and are inside the folder, just run:
 
 ```bash
-cd Did-You-Hear-That
 javac src/*.java
 java -cp src Game
