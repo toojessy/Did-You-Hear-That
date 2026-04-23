@@ -32,11 +32,22 @@ Be careful — once you unlock the first door, **the Closet Creep begins chasing
 - Custom ASCII death screen
 
 ---
+## Known Issues
 
-## Important
+- ASCII visuals may appear misaligned depending on terminal size
+- Entity movement is not perfectly optimal (uses simple pathfinding)
+- Map layout is fixed and does not change between runs
 
-This game **cannot be run directly on GitHub**.  
-You must download it and run it locally.
+---
+## AI Use
+
+AI tools (ChatGPT) were used to assist with:
+- Debugging Java code
+- Generating and refining game logic
+- Creating riddles and ASCII visuals
+- Writing and formatting the README
+
+All code was reviewed, tested, and modified by the author.
 
 ---
 
@@ -45,5 +56,6 @@ You must download it and run it locally.
 If you already have the project downloaded and are inside the folder, just run:
 
 ```bash
+cd Did-You-Hear-That
 javac src/*.java
 java -cp src Game
